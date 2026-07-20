@@ -40,7 +40,7 @@ Execute a aplicação:
 ```bash
 dotnet run
 ```
-A API iniciará, por padrão, em `http://localhost:5248` (verifique a porta no console caso seja diferente).
+A API iniciará, por padrão, em `http://localhost:5299` (verifique a porta no console caso seja diferente).
 
 ### 2. Frontend (React)
 
