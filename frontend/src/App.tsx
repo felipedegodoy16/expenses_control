@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import PersonsPage from './pages/PersonsPage';
 import TransactionsPage from './pages/TransactionsPage';
+import DashboardPage from './pages/DashboardPage';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         {/* Main Content */}
         <main className="flex-1">
           <Routes>
-            <Route path="/" element={<div className="p-8"><h2>Dashboard em breve...</h2></div>} />
+            <Route path="/" element={<DashboardPage />} />
             <Route path="/persons" element={<PersonsPage />} />
             <Route path="/transactions" element={<TransactionsPage />} />
           </Routes>
