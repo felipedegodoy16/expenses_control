@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import PersonsPage from './pages/PersonsPage';
+import TransactionsPage from './pages/TransactionsPage';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Routes>
             <Route path="/" element={<div className="p-8"><h2>Dashboard em breve...</h2></div>} />
             <Route path="/persons" element={<PersonsPage />} />
-            <Route path="/transactions" element={<div className="p-8"><h2>Transações em breve...</h2></div>} />
+            <Route path="/transactions" element={<TransactionsPage />} />
           </Routes>
         </main>
       </div>
