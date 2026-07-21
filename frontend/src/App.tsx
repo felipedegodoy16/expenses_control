@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import { LayoutDashboard, Users, CreditCard, Wallet, Github } from 'lucide-react';
+import { LayoutDashboard, Users, CreditCard, Wallet, GitBranch } from 'lucide-react';
 import PersonsPage from './pages/PersonsPage';
 import TransactionsPage from './pages/TransactionsPage';
 import DashboardPage from './pages/DashboardPage';
@@ -90,7 +90,7 @@ function App() {
               className="flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl transition-all hover:bg-slate-800/50"
               style={{ color: 'var(--color-text-muted)', fontSize: '0.8125rem' }}
             >
-              <Github className="w-4 h-4 flex-shrink-0" />
+              <GitBranch className="w-4 h-4 flex-shrink-0" />
               <span>Ver repositório</span>
             </a>
           </div>

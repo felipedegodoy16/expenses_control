@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import api from '../api';
-import { Users, UserPlus, Trash2, ChevronRight } from 'lucide-react';
+import { Users, UserPlus, Trash2 } from 'lucide-react';
 
 interface Person {
   id: number;
